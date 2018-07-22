@@ -143,14 +143,14 @@ int explorer() {
     original_button button_ok1 = {0}, button_cancel = {0};
     original_textbox textbox1 = {0}, textbox2 = {0};
     original_vscrollbar vscrollbar1 = {0}, vscrollbar2 = {0};
-    int textbox_width, textbox_height, window2_width, window2_height,
+    int textbox_width, textbox_height, window2_widlsth, window2_height,
             draw, quit;
 
     quit = 0;
     draw = 1;
     textbox_width = 250;
     textbox_height = 250;
-    window2_width = 400;
+    int window2_width = 400;
     window2_height = 168;
     renderer = original_init("Original Encryptor", &objects, 640, 480);
     if (!renderer) return 1;
